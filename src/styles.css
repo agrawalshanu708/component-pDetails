@@ -1,0 +1,54 @@
+:root {
+  --body-font: "Poppins", sans-serif;
+  --heading: 24px;
+  --sub-heading: 20px;
+  --sub-sub-heading: 18px;
+  --sub-heading-weight: 550;
+  --sub-sub-heading-weight: 550;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --base-color: #475569;
+  --button-color: rgb(55 48 163);
+  --border-light: #eaeaec;
+}
+body {
+  margin-top: 10px;
+}
+
+
+.details-box{
+border: 2px solid var(--border-light);
+width: fit-content;
+
+}
+.pdetails-first-box{
+  border: 1px solid var(--border-light);
+width: fit-content;
+margin: 1rem 0 1rem 0;
+}
+
+.pDetails-heading{
+font-size: var(--sub-heading);
+margin: 0 0 1rem 0;
+font-weight: var(--sub-heading-weight);
+}
+.pDetails-subheading{
+font-size: var(--sub-sub-heading);
+margin: 0 0 0.5rem 0;
+font-weight: var(--sub-sub-heading-weight);
+}
+.pdetails-second-box{
+  border: 1px solid var(--border-light);
+width: fit-content;
+margin: 1rem 0 0 0;
+}
+.pdetails-third-box{
+  border: 1px solid var(--border-light);
+  width: fit-content;
+  margin: 1rem 0 0 0;
+}
+.pdetails-fourth-box{
+  border: 1px solid var(--border-light);
+  width: fit-content;
+  margin: 1rem 0 0 0;
+}
